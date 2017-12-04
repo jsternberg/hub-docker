@@ -1,4 +1,4 @@
-FROM golang:1.9.1 as builder
+FROM golang:1.9.2 as builder
 RUN set -xe && \
     go get -u -d github.com/github/hub && \
     cd /go/src/github.com/github/hub && \
